@@ -16,9 +16,8 @@ export default function Contact() {
                 content="width=device-width, initial-scale=1"
                 />
                 <link rel="icon" href="/favicon.png" />
+                <body className="contact" />
             </Head>
-
-            <body>
                 <div>
                     <h1>Contact Us</h1>
                     <p>Want to discuss? Let's chat!</p>
@@ -49,7 +48,6 @@ export default function Contact() {
                     </form>
 
                 </div>
-            </body>
         </>
     )
 }
