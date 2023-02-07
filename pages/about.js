@@ -21,9 +21,9 @@ export default function About({}) {
           content="width=device-width, initial-scale=1"
         />
         <link rel="icon" href="/favicon.png" />
-
+        <body className= "about"/>
       </Head>
-      <main className="about">
+
         <div className="title">
           <hr />
           <h1>About Us</h1>
@@ -91,7 +91,6 @@ export default function About({}) {
         <a href='' className='arrow'>
           <span><img src="/icons/downwardArrow.png" /></span>
         </a>
-      </main>
     </>
   );
 }

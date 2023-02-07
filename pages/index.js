@@ -13,7 +13,8 @@ export default function Home() {
         <meta property="og:description" content="BCIT Digital Design and Development Diploma" />
         <meta property="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
-        <link rel="stylesheet" href="global.css" />
+        
+        <body className= "home"/>
       </Head>
 
       <nav className='navbar'>
@@ -21,7 +22,7 @@ export default function Home() {
           <img src="../icons/menu-icon.png" alt="menu icon" />
           {/* <img src="../icons/menu-icon.png" alt="menu icon" />
           <h1>X</h1>
-          <img src="../background-images/menuBackground.png"></img> */}
+        <img src="../background-images/menuBackground.png"></img> */}
 
         </div>
         
@@ -53,7 +54,7 @@ export default function Home() {
         
         </div>
         
-        <a href='' className='arrow-down'>
+        <a href='' className='arrow'>
           <span><img src="/icons/downwardArrow.png" /></span>
         </a>
         
