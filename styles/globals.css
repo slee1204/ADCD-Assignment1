@@ -119,13 +119,14 @@ html {
 }
 
 body {
-  background-image: url("../public/background-images/backgroundMountain.jpg");
+  /* background-image: url("../public/background-images/backgroundMountain.jpg"); */
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  background-color: #14343d;
 }
 
 .hamburger > img{
@@ -168,7 +169,7 @@ body {
   background-color:antiquewhite;
 }
 
-.buttons > a> button {
+.buttons > a > button {
   background-color: transparent;
   color: white;
   border-color: white;
@@ -179,13 +180,23 @@ body {
   cursor: pointer;
 }
 
-.arrow-down > span > img{
+.arrow > span > img{
   width: 2em;
   height: 2.5em; 
   margin-left: 7%;
   cursor: pointer;
 }
 
+
+/* ABOUT PAGE */
+
+.about {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
 .title {
   display: flex;
   flex-direction: row;
@@ -193,13 +204,73 @@ body {
 }
 .title > hr {
   width: 30%;
+  margin: 10px;
   height: 3px;
   border-width: 0px;
   text-align: left;
   background-color:red;
-
-
 }
+
+.first {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.slider {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  color: red;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #7c2c2c;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+
+/* .title > h1 {
+  
+} */
 
 /* Desktop */
 @media (min-width: 1000px){
