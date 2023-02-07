@@ -168,7 +168,7 @@ body {
   background-color:antiquewhite;
 }
 
-.buttons > button {
+.buttons > a> button {
   background-color: transparent;
   color: white;
   border-color: white;
