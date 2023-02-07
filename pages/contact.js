@@ -18,6 +18,8 @@ export default function Contact() {
                 <link rel="icon" href="/favicon.png" />
                 <body className="contact" />
             </Head>
+            <main>
+
                 <div>
                     <h1>Contact Us</h1>
                     <p>Want to discuss? Let's chat!</p>
@@ -48,6 +50,11 @@ export default function Contact() {
                     </form>
 
                 </div>
+
+                <a href='/about' className='arrow'>
+                    <span><img src="/icons/upwardArrow.png" /></span>
+                </a>
+            </main>
         </>
     )
 }
