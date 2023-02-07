@@ -28,33 +28,35 @@ export default function Home() {
         
       </nav>
       <main className='main'>
-
         <div className='container'>
 
           <div className='content'>
             <h1>An investment in knowledge pays the best interest.</h1>
             <hr/>
             <p>Different than a college or university, the British Columbia Institute of Technology offers practical, flexible, applied education with instructors who have direct, hands-on experience in their field.</p>
+            
           </div>
 
           <div className='buttons'>
+
             <a href='/about' >
-              <button name='More About Us'>
+              <button name='More About Us' className='buttons'>
                 More About Us
               </button>
             </a>
 
             <a href='/contact'>
-              <button name='Contact Us'>
+              <button name='Contact Us' className='buttons'>
                 Contact Us
               </button>
             </a>
           </div>
 
+
         
         </div>
         
-        <a href='' className='arrow'>
+        <a href='/about' className='arrow'>
           <span><img src="/icons/downwardArrow.png" /></span>
         </a>
         

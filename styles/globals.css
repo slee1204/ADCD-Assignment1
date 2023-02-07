@@ -95,7 +95,7 @@ body.contact {
   background-color:antiquewhite;
 }
 
-.buttons > a > button {
+.buttons {
   background-color: transparent;
   color: white;
   border-color: white;
